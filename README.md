@@ -1,22 +1,14 @@
-# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v2)
+# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v3)
 
-Minimalist, responsive personal portfolio website with a square-framed profile portrait and clean typography.
+Minimalist personal portfolio website featuring your customized portrait photo, square-framed styling, and complete IIT Madras coursework & project sections.
 
 ## Files
 - `index.html`: Main portfolio website.
-- `profile.jpg`: Profile picture (replace with your personal photo).
+- `profile.jpg`: Your cropped & optimized square portrait photo.
 
-## How to Deploy to GitHub Pages (2 Minutes)
+## Quick GitHub Pages Deployment
 
-1. **Create Repository**
-   Create a new public repository on GitHub named:
-   `<your-github-username>.github.io`
-
-2. **Upload Files**
-   - Click **Add file** > **Upload files** on GitHub.
-   - Drag and drop `index.html` and `profile.jpg`.
-   - Click **Commit changes**.
-
-3. **Visit Your Live Site**
-   Your website will be live immediately at:
+1. Create a repository on GitHub named `<your-github-username>.github.io` (or use your existing repository).
+2. Upload `index.html` and `profile.jpg`.
+3. Commit your changes. Your site will automatically go live at:
    `https://<your-github-username>.github.io`
