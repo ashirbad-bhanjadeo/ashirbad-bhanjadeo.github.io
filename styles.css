@@ -12,8 +12,8 @@ nav a:hover,nav a.active{color:#c3dc79}
 .eyebrow{font-family:Arial,sans-serif;font-size:11px;font-weight:600;letter-spacing:1.8px;color:#a9b978;margin:0 0 22px}
 .home h1,.content h1{font-size:clamp(38px,4.5vw,56px);font-weight:500;letter-spacing:-1.5px;line-height:1.12;margin:0 0 25px}
 .intro>p:last-child,.lead{font-size:19px;line-height:1.75;color:#d0ccc5;max-width:650px}
-.photo-frame{width:100%;max-width:270px;height:380px;justify-self:end;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#222;border:1px solid #3c3c3c;border-radius:4px}
-.photo-frame img{width:100%;height:100%;object-fit:contain;object-position:center center;display:block}
+.photo-frame{width:300px;height:300px;justify-self:end;overflow:hidden;background:#222;border:1px solid #3c3c3c;border-radius:8px}
+.photo-frame img{width:100%;height:100%;object-fit:cover;object-position:center center;display:block}
 .content{width:min(900px,86vw);min-height:calc(100vh - 130px);margin:0 auto;padding:85px 0}
 .content h1{margin-bottom:38px}
 .simple-item{border-top:1px solid #393939;padding:24px 0}
@@ -22,4 +22,4 @@ nav a:hover,nav a.active{color:#c3dc79}
 .muted{font-family:Arial,sans-serif;font-size:13px;color:#a9b978}
 .content a{color:#c3dc79}
 footer{height:54px;border-top:1px solid #393939;padding:18px max(7vw,28px);font-family:Arial,sans-serif;font-size:12px;color:#aaa}
-@media(max-width:700px){.topbar{height:auto;min-height:70px;padding:17px 20px;align-items:flex-start;gap:18px;flex-direction:column}nav{width:100%;gap:0;justify-content:space-between;flex-wrap:wrap}nav a{font-size:14px}.home{grid-template-columns:1fr;gap:25px;padding:50px 0}.home h1,.content h1{letter-spacing:-1px}.photo-frame{justify-self:start;width:210px;height:310px}.content{padding:60px 0;min-height:calc(100vh - 160px)}}
+@media(max-width:700px){.topbar{height:auto;min-height:70px;padding:17px 20px;align-items:flex-start;gap:18px;flex-direction:column}nav{width:100%;gap:0;justify-content:space-between;flex-wrap:wrap}nav a{font-size:14px}.home{grid-template-columns:1fr;gap:25px;padding:50px 0}.home h1,.content h1{letter-spacing:-1px}.photo-frame{justify-self:start;width:260px;height:260px}.content{padding:60px 0;min-height:calc(100vh - 160px)}}
