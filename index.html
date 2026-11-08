@@ -1,10 +1,203 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ashirbad Bhanjadeo</title><link rel="stylesheet" href="styles.css"></head>
-<body><header class="topbar"><a class="brand" href="index.html">ashirbad<span>.</span></a><nav aria-label="Main navigation">
-<a class="active" href="index.html">About</a><a href="projects.html">Projects</a><a href="blogs.html">Blogs</a><a href="courses.html">Courses</a><a href="contact.html">Contact</a>
-</nav></header>
-<main class="home"><section class="intro"><p class="eyebrow">IIT MADRAS · DATA SCIENCE</p><h1>Ashirbad Bhanjadeo</h1>
-<p>This is Ashirbad Bhanjadeo. I am currently pursuing my BS degree in Data Science and Applications at IIT Madras. I am currently in the first term of the Diploma level.</p></section>
-<div class="photo-frame"><img src="profile.jpg" alt="Photo of Ashirbad Bhanjadeo"></div></main>
-<footer>© <span id="year"></span> Ashirbad Bhanjadeo</footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashirbad Narayan Bhanjadeo — Data Science & Software Engineering</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+            mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace']
+          }
+        }
+      }
+    };
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  </script>
+</head>
+<body class="bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 min-h-screen antialiased selection:bg-zinc-200 dark:selection:bg-zinc-800 transition-colors duration-200">
+
+  <main class="max-w-2xl mx-auto px-6 py-16 sm:py-24 space-y-16">
+    
+    <!-- Header with Profile Picture at Right -->
+    <header class="space-y-5">
+      <div class="flex flex-col-reverse sm:flex-row sm:items-start sm:justify-between gap-5">
+        
+        <!-- Bio Info (Left) -->
+        <div class="space-y-3 flex-1">
+          <div>
+            <h1 class="text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
+              Ashirbad Narayan Bhanjadeo
+            </h1>
+            <p class="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+              Data Science & Applied Systems • IIT Madras BS (Diploma Level)
+            </p>
+          </div>
+
+          <p class="text-zinc-600 dark:text-zinc-300 text-sm leading-relaxed pr-2">
+            Building data integration pipelines, entity models, and modern web architectures. Focused on mathematical machine learning foundations, relational systems, and scalable backend implementations.
+          </p>
+
+          <div class="flex flex-wrap gap-2 text-xs text-zinc-500 dark:text-zinc-400 pt-1">
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-zinc-100 dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Bhubaneswar, India
+            </span>
+            <span class="inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-100 dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800">
+              Open for Software & ML Internships
+            </span>
+          </div>
+        </div>
+
+        <!-- Avatar & Theme Toggle (Right) -->
+        <div class="flex items-start justify-between sm:justify-end gap-3 shrink-0">
+          <button id="theme-toggle" aria-label="Toggle theme" class="p-2 rounded-lg border border-zinc-200 dark:border-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-900 text-zinc-600 dark:text-zinc-400 transition-colors order-2 sm:order-1">
+            <svg id="theme-icon" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+            </svg>
+          </button>
+          
+          <img 
+            src="profile.jpg" 
+            alt="Ashirbad Narayan Bhanjadeo" 
+            onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80';"
+            class="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-2 border-zinc-200 dark:border-zinc-800 order-1 sm:order-2 shadow-sm bg-zinc-200 dark:bg-zinc-800"
+          />
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Current Coursework -->
+    <section class="space-y-4">
+      <h2 class="text-xs font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+        Current Academic Modules
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div class="p-3.5 rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/50">
+          <div class="font-mono text-xs font-semibold text-zinc-900 dark:text-zinc-200">MLF</div>
+          <div class="text-xs text-zinc-500 dark:text-zinc-400 mt-1">Machine Learning Foundations</div>
+          <div class="text-[11px] text-zinc-400 dark:text-zinc-500 mt-2">Eigenvalues, Projections, Least Squares</div>
+        </div>
+
+        <div class="p-3.5 rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/50">
+          <div class="font-mono text-xs font-semibold text-zinc-900 dark:text-zinc-200">DBMS</div>
+          <div class="text-xs text-zinc-500 dark:text-zinc-400 mt-1">Database Management Systems</div>
+          <div class="text-[11px] text-zinc-400 dark:text-zinc-500 mt-2">Relational Algebra, SQL, Normalization</div>
+        </div>
+
+        <div class="p-3.5 rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/50">
+          <div class="font-mono text-xs font-semibold text-zinc-900 dark:text-zinc-200">MAD1</div>
+          <div class="text-xs text-zinc-500 dark:text-zinc-400 mt-1">Modern App Development I</div>
+          <div class="text-[11px] text-zinc-400 dark:text-zinc-500 mt-2">Full-stack APIs, MVC, SQLite, Jinja</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="space-y-5">
+      <h2 class="text-xs font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+        Selected Engineering Projects
+      </h2>
+      <div class="space-y-4">
+
+        <article class="p-4 rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/40 hover:border-zinc-300 dark:hover:border-zinc-700 transition-colors">
+          <div class="flex items-baseline justify-between gap-2">
+            <h3 class="text-sm font-medium text-zinc-900 dark:text-zinc-100">
+              Palantir-Inspired Entity &amp; Ontology Engine
+            </h3>
+            <span class="text-[11px] font-mono text-zinc-400">In Progress</span>
+          </div>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed">
+            Lightweight data integration platform modeling real-world business entities and object graphs directly over relational databases. Features automated entity resolution pipelines and semantic data mapping.
+          </p>
+          <div class="flex gap-2 mt-3 text-[11px] font-mono text-zinc-500 dark:text-zinc-400">
+            <span>Python</span> • <span>PostgreSQL</span> • <span>Ontology Design</span> • <span>Data Pipelines</span>
+          </div>
+        </article>
+
+        <article class="p-4 rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/40 hover:border-zinc-300 dark:hover:border-zinc-700 transition-colors">
+          <div class="flex items-baseline justify-between gap-2">
+            <h3 class="text-sm font-medium text-zinc-900 dark:text-zinc-100">
+              Orthogonal Subspace &amp; Least Squares Playground
+            </h3>
+            <span class="text-[11px] font-mono text-zinc-400">Linear Algebra</span>
+          </div>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed">
+            Interactive mathematical tool computing matrix diagonalizability, Gram-Schmidt orthogonalization, and projection matrices $P = A(A^TA)^{-1}A^T$ to visualize regression fits in high-dimensional subspaces.
+          </p>
+          <div class="flex gap-2 mt-3 text-[11px] font-mono text-zinc-500 dark:text-zinc-400">
+            <span>NumPy</span> • <span>Linear Algebra</span> • <span>Math Foundations</span>
+          </div>
+        </article>
+
+        <article class="p-4 rounded-lg border border-zinc-200 dark:border-zinc-800/80 bg-white dark:bg-zinc-900/40 hover:border-zinc-300 dark:hover:border-zinc-700 transition-colors">
+          <div class="flex items-baseline justify-between gap-2">
+            <h3 class="text-sm font-medium text-zinc-900 dark:text-zinc-100">
+              Modern Full-Stack Coursework Application
+            </h3>
+            <span class="text-[11px] font-mono text-zinc-400">MAD1 Core</span>
+          </div>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed">
+            Modular multi-tier web application implementing secure session authentication, role-based access control, relational schema constraints, and responsive RESTful endpoints.
+          </p>
+          <div class="flex gap-2 mt-3 text-[11px] font-mono text-zinc-500 dark:text-zinc-400">
+            <span>Flask</span> • <span>SQLite / SQLAlchemy</span> • <span>REST APIs</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Technical Toolkit -->
+    <section class="space-y-4">
+      <h2 class="text-xs font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+        Technical Skills
+      </h2>
+      <div class="flex flex-wrap gap-1.5 text-xs">
+        <span class="px-2.5 py-1 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">Python</span>
+        <span class="px-2.5 py-1 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">SQL &amp; Relational Modeling</span>
+        <span class="px-2.5 py-1 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">Linear Algebra &amp; ML Math</span>
+        <span class="px-2.5 py-1 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">NumPy &amp; SciPy</span>
+        <span class="px-2.5 py-1 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">Flask / Full-Stack APIs</span>
+        <span class="px-2.5 py-1 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">HTML / Tailwind CSS</span>
+        <span class="px-2.5 py-1 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200/80 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300">Git &amp; Shell</span>
+      </div>
+    </section>
+
+    <!-- Connect / Links -->
+    <footer class="pt-8 border-t border-zinc-200 dark:border-zinc-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-xs text-zinc-500 dark:text-zinc-400">
+      <div class="flex items-center gap-4">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">LinkedIn</a>
+        <a href="mailto:ashirbad@example.com" class="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">Email</a>
+      </div>
+      <div>
+        <span>© 2026 Ashirbad Narayan Bhanjadeo</span>
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    const themeBtn = document.getElementById('theme-toggle');
+    themeBtn.addEventListener('click', () => {
+      if (document.documentElement.classList.contains('dark')) {
+        document.documentElement.classList.remove('dark');
+        localStorage.theme = 'light';
+      } else {
+        document.documentElement.classList.add('dark');
+        localStorage.theme = 'dark';
+      }
+    });
+  </script>
+</body>
+</html>
