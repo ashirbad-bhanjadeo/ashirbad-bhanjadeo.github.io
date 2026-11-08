@@ -1,9 +1,9 @@
-# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v9)
+# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v10)
 
 Personal portfolio website with tabbed navigation, updated email, verified IIT Madras coursework, and square-framed profile portrait.
 
 ## Configured Details:
-- **Email**: 1bhanjadeoashirbad@gmail.com
+- **Email**: ashirbad-bhanjadeo@proton.me
 - **GitHub**: https://github.com/ashirbad-bhanjadeo
 - **About**: "I have a deep interest in understanding the brain."
 
