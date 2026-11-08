@@ -1,6 +1,6 @@
-# Ashirbad Narayan Bhanjadeo — Personal Portfolio
+# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v2)
 
-Minimalist, responsive personal portfolio website built with HTML5 and Tailwind CSS.
+Minimalist, responsive personal portfolio website with a square-framed profile portrait and clean typography.
 
 ## Files
 - `index.html`: Main portfolio website.
