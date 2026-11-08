@@ -60,6 +60,20 @@
           Projects
         </button>
         <button 
+          onclick="switchTab('publications')" 
+          id="tab-btn-publications" 
+          class="nav-tab px-3 py-1.5 rounded-md text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+        >
+          Publications
+        </button>
+        <button 
+          onclick="switchTab('cv')" 
+          id="tab-btn-cv" 
+          class="nav-tab px-3 py-1.5 rounded-md text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+        >
+          CV
+        </button>
+        <button 
           onclick="switchTab('blog')" 
           id="tab-btn-blog" 
           class="nav-tab px-3 py-1.5 rounded-md text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
@@ -248,7 +262,42 @@
       </div>
     </div>
 
-    <!-- 5. BLOG TAB -->
+    <!-- 5. PUBLICATIONS TAB -->
+    <div id="panel-publications" class="tab-panel hidden space-y-4">
+      <div class="flex items-baseline justify-between">
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+          Publications
+        </h2>
+        <span class="text-xs text-zinc-400 dark:text-zinc-600 font-mono">Coming soon</span>
+      </div>
+      
+      <div class="p-6 rounded-lg border border-dashed border-zinc-200 dark:border-zinc-800 text-center py-12">
+        <p class="text-xs text-zinc-500 dark:text-zinc-400">
+          Academic papers, preprints, and research articles will be listed here.
+        </p>
+      </div>
+    </div>
+
+    <!-- 6. CV TAB -->
+    <div id="panel-cv" class="tab-panel hidden space-y-4">
+      <div class="flex items-baseline justify-between">
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+          Curriculum Vitae
+        </h2>
+        <span class="text-xs text-zinc-400 dark:text-zinc-600 font-mono">Coming soon</span>
+      </div>
+      
+      <div class="p-6 rounded-lg border border-dashed border-zinc-200 dark:border-zinc-800 text-center py-12 space-y-2">
+        <p class="text-xs text-zinc-500 dark:text-zinc-400">
+          Curriculum vitae will be available here once updated.
+        </p>
+        <p class="text-[11px] text-zinc-400 dark:text-zinc-600">
+          A downloadable PDF copy will be linked directly to this section.
+        </p>
+      </div>
+    </div>
+
+    <!-- 7. BLOG TAB -->
     <div id="panel-blog" class="tab-panel hidden space-y-4">
       <div class="flex items-baseline justify-between">
         <h2 class="text-xs font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">

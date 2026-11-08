@@ -1,12 +1,12 @@
-# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v15)
+# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v17)
 
-Fine-tuned layout with a balanced `max-w-3xl` container width (768px) and a proportional 208px (`sm:w-52 sm:h-52`) portrait frame.
+Added a dedicated CV section within the zero-scroll tabbed navigation structure (Home, About, Education, Projects, Publications, CV, Blog).
 
 ## Configured Details:
-- **Container Width**: `max-w-3xl` (768px) — balanced between compact (672px) and wide (896px).
-- **Photo Size**: 208px (`sm:w-52 sm:h-52`) square frame with rounded corners.
-- **Location**: Removed.
-- **Tabs**: Zero-scroll navigation (Home, About, Education, Projects, Blog).
+- **Tabs**: Home, About, Education, Projects, Publications, CV, Blog.
+- **CV Tab**: Clean "Coming soon" placeholder panel, ready to host a PDF link or formatted CV text later.
+- **Container**: `max-w-3xl` (768px) balanced canvas.
+- **Photo**: 208px (`sm:w-52 sm:h-52`) square frame on the right.
 - **Email**: ashirbad-bhanjadeo@proton.me
 - **GitHub**: https://github.com/ashirbad-bhanjadeo
 - **About**: "I have a deep interest in understanding the brain."
