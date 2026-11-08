@@ -1,13 +1,13 @@
-# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v14)
+# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v15)
 
-Personal portfolio website with location metadata removed, zero-scroll tab navigation, custom portrait frame, and verified IIT Madras academic details.
+Fine-tuned layout with a balanced `max-w-3xl` container width (768px) and a proportional 208px (`sm:w-52 sm:h-52`) portrait frame.
 
 ## Configured Details:
-- **Location**: Removed completely.
-- **Overview**: Single concise bullet point on IIT Madras BS Diploma level.
-- **Container**: `max-w-4xl` (896px) widescreen layout.
-- **Photo**: 240px (`sm:w-60 sm:h-60`) square frame with rounded corners.
+- **Container Width**: `max-w-3xl` (768px) — balanced between compact (672px) and wide (896px).
+- **Photo Size**: 208px (`sm:w-52 sm:h-52`) square frame with rounded corners.
+- **Location**: Removed.
 - **Tabs**: Zero-scroll navigation (Home, About, Education, Projects, Blog).
 - **Email**: ashirbad-bhanjadeo@proton.me
 - **GitHub**: https://github.com/ashirbad-bhanjadeo
 - **About**: "I have a deep interest in understanding the brain."
+- **Overview**: Single bullet on IIT Madras BS Diploma level enrollment.
