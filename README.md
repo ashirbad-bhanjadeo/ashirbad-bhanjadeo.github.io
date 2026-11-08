@@ -18,9 +18,9 @@ A responsive, Apple-inspired personal website and blog built with plain HTML, CS
 
 Open `index.html` and search for these placeholders:
 
-- `YOUR_EMAIL@example.com` — replace with your public contact email.
-- `YOUR_GITHUB` — replace with your GitHub username.
-- `YOUR_LINKEDIN` — replace with your LinkedIn profile slug.
+- Public contact email is set to `1bhanjadeoashirbad@gmail.com`.
+- GitHub profile is set to `https://github.com/ashirbad-bhanjadeo`.
+- LinkedIn is omitted until you add your profile URL.
 
 Also review the sample project descriptions, learning interests and starter blog topics. Keep claims accurate and replace starter content with your own work as it develops.
 
