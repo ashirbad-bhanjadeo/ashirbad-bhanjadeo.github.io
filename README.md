@@ -1,14 +1,15 @@
-# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v3)
+# Ashirbad Narayan Bhanjadeo — Portfolio
 
-Minimalist personal portfolio website featuring your customized portrait photo, square-framed styling, and complete IIT Madras coursework & project sections.
+The photo is now embedded directly inside `index.html` as a Base64 image.
 
-## Files
-- `index.html`: Main portfolio website.
-- `profile.jpg`: Your cropped & optimized square portrait photo.
+## Why this solves the caching issue:
+GitHub Pages and Google Chrome aggressively cache images named `profile.jpg`. By embedding the image directly into `index.html`:
+1. It is guaranteed to display immediately with zero cache delays.
+2. No broken image links or missing file errors.
 
-## Quick GitHub Pages Deployment
-
-1. Create a repository on GitHub named `<your-github-username>.github.io` (or use your existing repository).
-2. Upload `index.html` and `profile.jpg`.
-3. Commit your changes. Your site will automatically go live at:
-   `https://<your-github-username>.github.io`
+## Deploy to GitHub:
+1. Go to your GitHub repository: `https://github.com/ashirbad-bhanjadeo/ashirbad-bhanjadeo.github.io`
+2. Click **Add file** -> **Upload files**.
+3. Upload `index.html`.
+4. Commit changes.
+5. In your browser, press `Ctrl + Shift + R` (or `Ctrl + F5`) to force-refresh.
