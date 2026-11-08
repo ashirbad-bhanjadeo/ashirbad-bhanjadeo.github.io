@@ -53,6 +53,13 @@
           Education
         </button>
         <button 
+          onclick="switchTab('projects')" 
+          id="tab-btn-projects" 
+          class="nav-tab px-3 py-1.5 rounded-md text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+        >
+          Projects
+        </button>
+        <button 
           onclick="switchTab('blog')" 
           id="tab-btn-blog" 
           class="nav-tab px-3 py-1.5 rounded-md text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
@@ -225,7 +232,23 @@
       </div>
     </div>
 
-    <!-- 4. BLOG TAB -->
+    <!-- 4. PROJECTS TAB -->
+    <div id="panel-projects" class="tab-panel hidden space-y-4">
+      <div class="flex items-baseline justify-between">
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+          Projects
+        </h2>
+        <span class="text-xs text-zinc-400 dark:text-zinc-600 font-mono">Coming soon</span>
+      </div>
+      
+      <div class="p-6 rounded-lg border border-dashed border-zinc-200 dark:border-zinc-800 text-center py-12">
+        <p class="text-xs text-zinc-500 dark:text-zinc-400">
+          Selected coursework and software projects will be published here.
+        </p>
+      </div>
+    </div>
+
+    <!-- 5. BLOG TAB -->
     <div id="panel-blog" class="tab-panel hidden space-y-4">
       <div class="flex items-baseline justify-between">
         <h2 class="text-xs font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
