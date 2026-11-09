@@ -1,12 +1,12 @@
-# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v20)
+# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v21)
 
-Updated with the exact Google Analytics 4 Measurement ID (`G-5YTG4X3ED2`) in `<head>`.
+Updated with Option 2 (geometric brain / neural synapse glyph) favicon.
 
-## Measurement ID:
-- `G-5YTG4X3ED2`
+## Favicon Details:
+- **Design**: Rounded dark square container (`#18181b`) with clean dual-hemisphere cerebral cortex vector arches, dashed central fissure, and cyan synaptic connection nodes (`#38bdf8`).
+- **Implementation**: Embedded directly as an inline SVG data URI in `index.html` (for zero-dependency instant loading) plus a standalone `favicon.svg` file.
 
 ## Deployment:
-1. Upload `index.html` to `https://github.com/ashirbad-bhanjadeo/ashirbad-bhanjadeo.github.io`.
+1. Upload `index.html` and `favicon.svg` to `https://github.com/ashirbad-bhanjadeo/ashirbad-bhanjadeo.github.io`.
 2. Commit changes.
-3. Open `https://ashirbad-bhanjadeo.github.io` in a new tab.
-4. Check Google Analytics Realtime report.
+3. Hard refresh `https://ashirbad-bhanjadeo.github.io` (`Ctrl + Shift + R` or `Ctrl + F5`) to see the brain icon in your browser tab.
