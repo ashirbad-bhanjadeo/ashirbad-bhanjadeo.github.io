@@ -1,12 +1,15 @@
-# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v21)
+# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v26)
 
-Updated with Option 2 (geometric brain / neural synapse glyph) favicon.
+Added Hugging Face profile link (`https://huggingface.co/Ashirbad3`) to the header identity row and footer.
 
-## Favicon Details:
-- **Design**: Rounded dark square container (`#18181b`) with clean dual-hemisphere cerebral cortex vector arches, dashed central fissure, and cyan synaptic connection nodes (`#38bdf8`).
-- **Implementation**: Embedded directly as an inline SVG data URI in `index.html` (for zero-dependency instant loading) plus a standalone `favicon.svg` file.
+## Configured Details:
+- **GitHub**: https://github.com/ashirbad-bhanjadeo
+- **Hugging Face**: https://huggingface.co/Ashirbad3
+- **Email**: ashirbad-bhanjadeo@proton.me
+- **Favicon**: Symmetrical cerebral hemispheres with cyan synaptic accents (`favicon.png`, `favicon-48.png`, `favicon.svg`).
+- **Analytics**: GA4 Measurement ID (`G-5YTG4X3ED2`) active.
 
 ## Deployment:
-1. Upload `index.html` and `favicon.svg` to `https://github.com/ashirbad-bhanjadeo/ashirbad-bhanjadeo.github.io`.
+1. Upload `index.html`, `favicon.png`, `favicon-48.png`, `favicon.svg`, and `README.md` to `https://github.com/ashirbad-bhanjadeo/ashirbad-bhanjadeo.github.io`.
 2. Commit changes.
-3. Hard refresh `https://ashirbad-bhanjadeo.github.io` (`Ctrl + Shift + R` or `Ctrl + F5`) to see the brain icon in your browser tab.
+3. Hard refresh `https://ashirbad-bhanjadeo.github.io` (`Ctrl + Shift + R` or `Ctrl + F5`).
