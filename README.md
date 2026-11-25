@@ -1,6 +1,6 @@
-# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v26)
+# Ashirbad Narayan Bhanjadeo — Personal Portfolio (v27)
 
-Added Hugging Face profile link (`https://huggingface.co/Ashirbad3`) to the header identity row and footer.
+Updated the header profile photo with the new uploaded image (square-cropped and centered on the subject).
 
 ## Configured Details:
 - **GitHub**: https://github.com/ashirbad-bhanjadeo
@@ -10,6 +10,6 @@ Added Hugging Face profile link (`https://huggingface.co/Ashirbad3`) to the head
 - **Analytics**: GA4 Measurement ID (`G-5YTG4X3ED2`) active.
 
 ## Deployment:
-1. Upload `index.html`, `favicon.png`, `favicon-48.png`, `favicon.svg`, and `README.md` to `https://github.com/ashirbad-bhanjadeo/ashirbad-bhanjadeo.github.io`.
+1. Upload `index.html`, `favicon.png`, `favicon-48.png`, `favicon.svg`, `profile.jpg`, and `README.md` to `https://github.com/ashirbad-bhanjadeo/ashirbad-bhanjadeo.github.io`.
 2. Commit changes.
 3. Hard refresh `https://ashirbad-bhanjadeo.github.io` (`Ctrl + Shift + R` or `Ctrl + F5`).
